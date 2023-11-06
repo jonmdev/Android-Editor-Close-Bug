@@ -4,14 +4,8 @@ namespace Android_Editor_Close_Bug {
     public partial class App : Application {
         public App() {
             InitializeComponent();
-
-            //MainPage = new ContentPage();
             MainPage = TestPage.Instance;
-            
-
         }
-
-        
     }
 
     public class TestPage : ContentPage {
